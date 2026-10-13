@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité · Localisateur Academia</title>
+<meta name="description" content="Politique de confidentialité de l'extension Chrome Localisateur Academia : ce qu'elle lit, ce qu'elle garde sur votre ordinateur, et ce qu'elle envoie.">
+<style>
+  :root { --ink:#1b1b1f; --mute:#5b5b66; --line:#e3e3e8; --bg:#fff; --acc:#1d4ed8; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#ececf1; --mute:#a3a3b0; --line:#2c2c34; --bg:#141418; --acc:#8ab4ff; } }
+  html { background:var(--bg); }
+  body { margin:0; padding:32px 16px 64px; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; }
+  h1 { font-size:28px; line-height:1.25; margin:0 0 4px; }
+  h2 { font-size:19px; margin:36px 0 8px; padding-top:20px; border-top:1px solid var(--line); }
+  p, li { margin:8px 0; }
+  ul { padding-left:22px; }
+  .maj { color:var(--mute); font-size:14px; margin:0 0 24px; }
+  .essentiel { border:1px solid var(--line); border-radius:10px; padding:4px 18px; margin:20px 0; }
+  table { border-collapse:collapse; width:100%; font-size:15px; margin:12px 0; }
+  th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+  th { color:var(--mute); font-weight:600; }
+  a { color:var(--acc); }
+  code { font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Politique de confidentialité</h1>
+<p class="maj">Extension Chrome « Localisateur Academia » · Dernière mise à jour : 13 octobre 2026</p>
+
+<p>Le Localisateur Academia est une extension Chrome pour les conseillers immobiliers. Quand vous ouvrez une annonce, elle cherche l'adresse probable du bien à partir des informations de l'annonce et de bases publiques, puis l'affiche dans le panneau latéral de Chrome. Elle est éditée par Start Academy (Academia), à Vence (Alpes-Maritimes).</p>
+
+<div class="essentiel">
+<p><strong>L'essentiel.</strong></p>
+<ul>
+  <li>Il n'y a ni compte, ni serveur Academia : <strong>nous ne recevons rien</strong> de ce que vous lisez ou trouvez avec l'extension.</li>
+  <li>Les biens que vous localisez restent <strong>uniquement dans votre navigateur</strong>.</li>
+  <li>Aucune publicité, aucune mesure d'audience, aucune revente de données, <strong>aucune intelligence artificielle</strong>.</li>
+</ul>
+</div>
+
+<h2>1. Ce que l'extension lit</h2>
+<p>L'extension ne s'exécute que sur les sites d'annonces immobilières qu'elle reconnaît (Leboncoin, SeLoger, Bien'ici, Belles Demeures, Figaro Immobilier, ParuVendu, Green-Acres), et seulement sur les pages que vous ouvrez vous-même. Elle ne navigue jamais seule d'un site à l'autre.</p>
+<p>Sur une annonce, elle lit : le prix, la surface, la surface du terrain, le nombre de pièces, le diagnostic de performance énergétique (DPE), la commune et le code postal, les adresses des photos, et le texte de l'annonce (8 000 caractères au plus). Elle écarte les numéros de téléphone et les adresses e-mail du texte, et ne cherche pas à lire le nom d'un vendeur.</p>
+
+<h2>2. Ce qui est gardé, et où</h2>
+<p>Les biens que vous analysez (liste « Mes biens »), vos confirmations, le journal de fonctionnement et vos réglages sont enregistrés dans le stockage de votre navigateur Chrome, sur votre ordinateur. <strong>Rien de cela n'est envoyé à Academia.</strong> Le journal ne sort de votre ordinateur que si vous l'exportez vous-même et le transmettez à quelqu'un.</p>
+<p>Pour tout effacer, supprimez l'extension dans <code>chrome://extensions</code> : les données enregistrées disparaissent avec elle.</p>
+
+<h2>3. Ce qui est envoyé à des services tiers</h2>
+<p>Pour trouver l'adresse, l'extension interroge des services publics et envoie à chacun la seule information nécessaire à sa question (une adresse, une commune, des coordonnées, un numéro de parcelle). Comme pour toute page web, ces services voient aussi votre adresse IP. Ils appliquent leur propre politique de confidentialité.</p>
+<table>
+  <tr><th>Service</th><th>À quoi il sert</th></tr>
+  <tr><td>Base Adresse Nationale (plateforme.adresse.data.gouv.fr) et API Géo (geo.api.gouv.fr)</td><td>Vérifier les adresses et les communes</td></tr>
+  <tr><td>Géoplateforme de l'IGN (data.geopf.fr)</td><td>Cadastre, parcelles et bâtiments</td></tr>
+  <tr><td>ADEME (data.ademe.fr, observatoire-dpe-audit.ademe.fr)</td><td>Diagnostics de performance énergétique publics</td></tr>
+  <tr><td>Demandes de valeurs foncières (app.dvf.etalab.gouv.fr)</td><td>Ventes passées autour du bien</td></tr>
+  <tr><td>data.gouv.fr (tabular-api.data.gouv.fr)</td><td>Registre des copropriétés</td></tr>
+  <tr><td>Google Maps Platform (maps.googleapis.com)</td><td>Vue 3D du bien : la position du bien est transmise à Google pour afficher la vue</td></tr>
+  <tr><td>GitHub Pages (lm10031984.github.io)</td><td>Héberge la page qui affiche la vue 3D. Elle ne reçoit que l'adresse de la page demandée et le numéro de version de l'extension</td></tr>
+  <tr><td>Google Fonts (fonts.googleapis.com)</td><td>Polices de caractères des écrans de l'extension</td></tr>
+</table>
+<p>Les boutons « Google Earth » et « Street View » ouvrent un nouvel onglet vers Google uniquement quand vous cliquez dessus.</p>
+<p>L'extension n'envoie <strong>aucune annonce, aucune adresse trouvée et aucune donnée sur vous</strong> à Academia, ni à un service d'intelligence artificielle, ni aux sites d'annonces (en dehors de la lecture normale de leurs pages dans votre navigateur).</p>
+
+<h2>4. Pourquoi l'extension demande certaines autorisations</h2>
+<ul>
+  <li><strong>Accès aux sites d'annonces listés plus haut</strong> : lire l'annonce que vous ouvrez.</li>
+  <li><strong>Accès aux services publics listés ci-dessus</strong> : interroger les bases d'adresses, de cadastre, de DPE et de ventes.</li>
+  <li><strong>Stockage</strong> : garder vos biens et vos réglages sur votre ordinateur.</li>
+  <li><strong>Panneau latéral, onglets, navigation, notifications, alarmes</strong> : afficher le résultat à côté de l'annonce, ouvrir la vue d'un bien, suivre les changements de page et rappeler les tâches de fond.</li>
+</ul>
+
+<h2>5. Vos droits</h2>
+<p>Academia ne collectant aucune donnée personnelle par cette extension, il n'y a rien à consulter, corriger ou supprimer de notre côté : vous gardez la maîtrise de vos données, qui sont chez vous. Pour toute question, ou si vous pensez que cette page ne correspond pas à ce que fait l'extension, écrivez-nous à l'adresse ci-dessous.</p>
+
+<h2>6. Modifications et contact</h2>
+<p>Si l'extension change de manière qui touche à vos données, cette page est mise à jour avant la publication de la nouvelle version, avec une nouvelle date en haut.</p>
+<p>Contact : Start Academy (Academia), Vence (Alpes-Maritimes) · <a href="mailto:laurent@start-academy.fr">laurent@start-academy.fr</a></p>
+</main>
+</body>
+</html>
